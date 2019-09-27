@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && cp src/solve/package.json functions/solve/"
+    "build": "tsc && cp src/solve/package.json functions/solve/ && cp src/helpers/package.json functions/helpers/ && cp src/responses/package.json functions/responses/ && cd functions/solve && npm install && cd ../.."
   },
   "repository": {
     "type": "git",
