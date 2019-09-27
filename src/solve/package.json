@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "simplex": "git+https://github.com/Luluno01/node-simplex.git",
     "helpers": "file:../helpers",
     "responses": "file:../responses"
   }
