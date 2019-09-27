@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "helpers": "file:../helpers",
+    "responses": "file:../responses"
+  }
+}
