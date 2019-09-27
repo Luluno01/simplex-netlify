@@ -1,9 +1,7 @@
-import { LinearProgram, Result } from 'simplex'
+import { LinearProgram } from 'simplex'
 import { Handler } from '../global'
-import Param from '../helpers/Param'
-import BadRequest from '../responses/BadRequest'
-import OK from '../responses/OK'
-import linearProgramToJSON from '../helpers/linearProgramToJSON'
+import { Param, linearProgramToJSON } from 'helpers'
+import { BadRequest, OK } from 'responses'
 
 export const handler: Handler = async (event, context) => {
   const param = new Param(event.queryStringParameters, event)

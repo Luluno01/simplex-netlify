@@ -1,5 +1,5 @@
 import { Handler, APIGatewayEvent, Context } from 'aws-lambda'
-import Response from './responses/Response'
+import { Response } from 'responses'
 
 
 interface Handler {

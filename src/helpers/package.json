@@ -1,12 +1,17 @@
 {
   "name": "helpers",
+  "main": "build/index.js",
   "private": true,
-  "version": "1.0.0",
-  "description": "",
-  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "install": "tsc"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "responses": "file:../responses"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.8",
+    "typescript": "^3.6.3"
+  }
 }

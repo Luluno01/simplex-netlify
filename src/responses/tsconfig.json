@@ -3,7 +3,7 @@
     "module": "commonjs",
     "target": "es2017",
     "noImplicitAny": false,
-    "outDir": "functions",
+    "outDir": "build",
     "sourceMap": true,
     "resolveJsonModule": true,
     "declarationDir": "@types",
@@ -12,9 +12,5 @@
   },
   "include": [
     "src/**/*.ts"
-  ],
-  "exclude": [
-    "src/helpers/**/*.ts",
-    "src/responses/**/*.ts"
   ]
 }

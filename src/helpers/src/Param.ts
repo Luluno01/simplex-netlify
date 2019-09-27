@@ -1,5 +1,5 @@
 import { APIGatewayProxyEvent } from 'aws-lambda'
-import BadRequest from '../responses/BadRequest'
+import { BadRequest } from 'responses'
 
 
 export class RequireParameterError extends Error {}
