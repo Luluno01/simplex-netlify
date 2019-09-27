@@ -1,10 +1,6 @@
 import { Handler, APIGatewayEvent, Context } from 'aws-lambda'
+import Response from './responses/Response'
 
-
-interface Response {
-  statusCode: number
-  body: string
-}
 
 interface Handler {
   (event: APIGatewayEvent, context: Context): Promise<Response>
