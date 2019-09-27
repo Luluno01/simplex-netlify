@@ -1,0 +1,25 @@
+{
+  "name": "simplex-netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luluno01/simplex-netlify.git"
+  },
+  "author": "Untitled",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luluno01/simplex-netlify/issues"
+  },
+  "homepage": "https://github.com/Luluno01/simplex-netlify#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.33",
+    "@types/node": "^12.7.8",
+    "typescript": "^3.6.3"
+  }
+}
